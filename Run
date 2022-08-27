@@ -2,7 +2,7 @@
 #!/bin/bash
 cd $(cd $(dirname $0); pwd)
 echo -e '\e[1m\e[31m
-Spark source is being installed, 
+Rhp sourse is being installed, 
 Please wait until the installation is complete
 \033[0m'
 echo -e '\033[0;33m
@@ -50,8 +50,7 @@ sudo lua5.3 Rhp.lua
 ;;
 2)
 echo -e "\e[1m\e[32mThe bot is running now : جاري تشغيل البوت الان : \e[0m"
-echo-e "\e[1m\e[32m Dev : @ukkkp channel bots : @QQQxx "
-sleep 2
+sleep 1
 unzip luatele.zip
 sudo lua5.3 Rhp.lua
 ;;
